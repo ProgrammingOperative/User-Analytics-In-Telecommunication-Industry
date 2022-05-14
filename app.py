@@ -112,14 +112,14 @@ with stats_container:
 
 	# 4 --- You import datasets like you always do with pandas
 	# 		if you'd like to import data from a database, you need to set up a database connection
-	data = pd.read_csv('data/clean_data.csv')
+	data = pd.read_csv('data/engagement.csv')
 
-
+	data.head()
+	
 
 	# 5 --- You can work with data, change it and filter it as you always do using Pandas or any other library
-	start_station_list = ['All'] + data['start station name'].unique().tolist()
-	end_station_list = ['All'] + data['end station name'].unique().tolist()
-
+	# start_station_list = ['All'] + data['start station name'].unique().tolist()
+	# end_station_list = ['All'] + data['end station name'].unique().tolist()
 
 
 
