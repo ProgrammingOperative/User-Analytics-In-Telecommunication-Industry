@@ -88,13 +88,13 @@ stats_container = st.beta_container()
 with header_container:
 
 	# for example a logo or a image that looks like a website header
-	st.image(../'logo.png')
+	st.image('logo.png')
 
 	# different levels of text you can include in your app
-	st.title("A cool new Streamlit app")
-	st.header("Welcome!")
-	st.subheader("This is a great app")
-	st.write("check it for yourself, if you don't believe me")
+	st.title("DASHBOARD FOR TELECOMMUNICATION INDUSTRY ANALYTICS")
+	# st.header("Welcome!")
+	# st.subheader("This is a great app")
+	# st.write("check it for yourself, if you don't believe me")
 
 
 
@@ -112,11 +112,7 @@ with stats_container:
 
 	# 4 --- You import datasets like you always do with pandas
 	# 		if you'd like to import data from a database, you need to set up a database connection
-	data = pd.read_csv('JC-202103-citibike-tripdata.csv')
-
-
-
-
+	data = pd.read_csv('data/clean_data.csv')
 
 
 
