@@ -67,3 +67,7 @@ class Plot:
         sns.pairplot(self.df, hue, diag_kind,
                 plot_kws = {'alpha': 0.6, 's': 80, 'edgecolor': 'k'},
                 height=4)
+
+        """
+        Depends on the number of columns provided
+        """
